@@ -36,6 +36,9 @@ AssetSync.configure do |config|
   # upload instead of searching the assets directory.
   # config.manifest = true
   #
+  # Upload the manifest file also.
+  # config.include_manifest = false
+  #
   # Fail silently.  Useful for environments such as Heroku
   # config.fail_silently = true
   #
