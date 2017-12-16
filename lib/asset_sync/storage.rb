@@ -47,7 +47,7 @@ module AssetSync
       else
         manifest_path = self.config.manifest_path
       end
-      [manifest_path.filename.sub(/^#{path}\//, "")] # full path to relative path
+      [manifest_path.sub(/^#{path}\//, "")] # full path to relative path
     end
 
     def local_files
